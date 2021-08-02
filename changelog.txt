@@ -1,7 +1,10 @@
-Version 0.03.0 Changelog
+Version 0.04.0 Changelog
+-Navigational bar revamped
+-Font awesome added
+-Error404/sorry.html added
+-Shop are added on navigational bar but not currently functioning
+-More under the hood improvements!
+-Bug fixed where dark mode is showen on navigation bar insted of light mode when under dark mode
+-Shop is added
+-Performance improved
 
--Navigational bar improved
--Fonts are more smaller to make the expirience better
--Dark mode are more darker
--comments are left on the code to guide the developer about the code
--More under the hood improvermnts

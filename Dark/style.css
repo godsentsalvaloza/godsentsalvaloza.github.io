@@ -1,8 +1,9 @@
+/*Version v0.04.0 light compiled on 7/26/2021 build 072621*/
 /*making the footer stay at the bottom of the webpage*/
 html,
 body {
   height: 100%;
-  background-color: #000000;
+  background-color: #000;
 }
 #main-container-for-all {
   min-height: 100%;
@@ -18,56 +19,57 @@ body {
   margin-left: -8px;
   margin-right: -8px;
 }
+#footer-text {
+  color: #e6e6e6;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2vw;
+}
 /*/making the footer stay at the bottom of the webpage*/
-/*Header Name*/
-#website-header-name {
+/*Naviation Bar style*/
+#primary_navigation_bar {
+  background-color: #1a1a1a;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+}
+#navigation_bar_name {
+  color: #e6e6e6;
   font-family: "Noto Sans", sans-serif;
   font-size: 4vw;
-  background-color: #1a1a1a;
-  color: #e6e6e6;
-}
-#website-name {
-  margin-left: -8px;
-  margin-right: -8px;
-  margin-top: -4vw;
-}
-/*/Header Name*/
-/*Navigation bar*/
-#lists-navigation {
-  list-style: none;
-  display: inline;
-  margin-left: 2vw;
-  font-size: 2.5vw;
-}
-#unorderd-nav {
-  background-color: #1a1a1a;
-  margin-top: -4vw;
-  margin-left: -8px;
-  margin-right: -8px;
-}
-a:link {
-  color: #d9d9d9;
-}
-a:visited {
-  color: #d9d9d9;
-}
-a:hover {
-  color: #ff3300;
-}
-a:active {
-  color: #d9d9d9;
-}
-.nav-links {
-  text-decoration: none;
-  font-family: "Noto Sans", sans-serif;
 }
 
-/*/Navigation bar*/
+#naviation_links {
+  font-size: 2.5vw;
+  font-family: "Noto Sans", sans-serif;
+  display: inline;
+  text-align: right;
+  margin-left: 5vw;
+}
+.navigation_options {
+  display: inline;
+  margin-left: 2vw;
+}
+a.naviations_hyperlinks:link {
+  color: #d9d9d9;
+}
+a.naviations_hyperlinks:visited {
+  color: #d9d9d9;
+}
+a.naviations_hyperlinks:hover {
+  color: #ff3300;
+}
+a.naviations_hyperlinks:active {
+  color: #d9d9d9;
+}
+a.naviations_hyperlinks {
+  text-decoration: none;
+}
+/*/Naviation Bar style*/
 /*Quote-below-the-header*/
 #quote-on-the-start {
   text-align: center;
   font-family: "Noto Sans", sans-serif;
-  font-size: 4vw;
+  font-size: 3.5vw;
   color: #d9d9d9;
 }
 /*/Quote-below-the-header*/
@@ -105,8 +107,3 @@ a:active {
   margin-top: -3vw;
 }
 /*/For the articles*/
-#footer-text {
-  color: #d9d9d9;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 2vw;
-}

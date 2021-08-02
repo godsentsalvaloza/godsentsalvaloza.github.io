@@ -3,6 +3,7 @@
 html,
 body {
   height: 100%;
+  background-color: #e6e6e6;
 }
 #main-container-for-all {
   min-height: 100%;
@@ -35,6 +36,7 @@ body {
   color: #f2f2f2;
   font-family: "Noto Sans", sans-serif;
   font-size: 4vw;
+  margin-left: 1vw;
 }
 
 #naviation_links {
@@ -42,10 +44,10 @@ body {
   font-family: "Noto Sans", sans-serif;
   display: inline;
   text-align: right;
-  margin-left: 5vw;
+  margin-left: 45vw;
 }
 .navigation_options {
-  display: inline;
+  display: inline-block;
   margin-left: 2vw;
 }
 a.naviations_hyperlinks:link {
@@ -64,42 +66,56 @@ a.naviations_hyperlinks {
   text-decoration: none;
 }
 /*/Naviation Bar style*/
-/*Quote-below-the-header*/
-#quote-on-the-start {
-  text-align: center;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 3.5vw;
-}
-/*/Quote-below-the-header*/
-/*Profile picture*/
-#profile-picture-page {
-  border-radius: 50%;
+.product_photo_reziser {
   width: 20vw;
   height: 20vw;
 }
-#profile-picture-webpage {
+.row_one {
+  margin-top: 3vw;
+  display: inline-block;
+  background-color: white;
+  margin-left: 1vw;
+}
+.product_name {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2vw;
+  margin-top: 0vw;
+  text-align: left;
+}
+.product_price {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2vw;
+  margin-top: -1.5vw;
+  text-align: left;
+}
+.product_review_and_sold {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5vw;
+  margin-top: -1.5vw;
+  text-align: right;
+}
+a.product_hyperlink:link {
+  color: #000;
+}
+a.product_hyperlink:visited {
+  color: #000;
+}
+a.product_hyperlink:hover {
+  color: #ff3300;
+}
+a.product_hyperlink:active {
+  color: #000;
+}
+a.product_hyperlink {
+  text-decoration: none;
+}
+#main-container-products {
   text-align: center;
-  margin-top: -2vw;
 }
-/*/Profile picture*/
-/*Profile Name*/
-#profile-name-text {
+.product_location {
   font-family: "Noto Sans", sans-serif;
-  text-align: center;
-  font-size: 2.5vw;
-  color: #1a1a1a;
+  font-size: 1.3vw;
+  color: #262626;
+  margin-top: -1.5vw;
+  text-align: right;
 }
-/*/Profile Name*/
-/*For the articles*/
-.header-of-info {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 3.5vw;
-}
-.long-description-about-that-topic {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 2.5vw;
-}
-.margin-top-fixer {
-  margin-top: -3vw;
-}
-/*/For the articles*/

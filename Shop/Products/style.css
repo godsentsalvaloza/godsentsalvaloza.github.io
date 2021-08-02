@@ -3,6 +3,7 @@
 html,
 body {
   height: 100%;
+  background-color: #e6e6e6;
 }
 #main-container-for-all {
   min-height: 100%;
@@ -35,6 +36,7 @@ body {
   color: #f2f2f2;
   font-family: "Noto Sans", sans-serif;
   font-size: 4vw;
+  margin-left: 1vw;
 }
 
 #naviation_links {
@@ -42,10 +44,10 @@ body {
   font-family: "Noto Sans", sans-serif;
   display: inline;
   text-align: right;
-  margin-left: 5vw;
+  margin-left: 30vw;
 }
 .navigation_options {
-  display: inline;
+  display: inline-block;
   margin-left: 2vw;
 }
 a.naviations_hyperlinks:link {
@@ -64,42 +66,45 @@ a.naviations_hyperlinks {
   text-decoration: none;
 }
 /*/Naviation Bar style*/
-/*Quote-below-the-header*/
-#quote-on-the-start {
-  text-align: center;
+#product_image {
+  width: 35vw;
+  height: 30vw;
+  margin-top: 3vw;
+  float: left;
+}
+#product_name {
+  padding-left: 2vw;
+  font-size: 5vw;
   font-family: "Noto Sans", sans-serif;
-  font-size: 3.5vw;
 }
-/*/Quote-below-the-header*/
-/*Profile picture*/
-#profile-picture-page {
-  border-radius: 50%;
-  width: 20vw;
-  height: 20vw;
-}
-#profile-picture-webpage {
-  text-align: center;
-  margin-top: -2vw;
-}
-/*/Profile picture*/
-/*Profile Name*/
-#profile-name-text {
-  font-family: "Noto Sans", sans-serif;
-  text-align: center;
+#stars_reviews {
+  padding-left: 2vw;
   font-size: 2.5vw;
-  color: #1a1a1a;
-}
-/*/Profile Name*/
-/*For the articles*/
-.header-of-info {
   font-family: "Noto Sans", sans-serif;
-  font-size: 3.5vw;
 }
-.long-description-about-that-topic {
+#product_price {
+  padding-left: 2vw;
+  font-size: 4vw;
   font-family: "Noto Sans", sans-serif;
-  font-size: 2.5vw;
+  color: #ff3300;
 }
-.margin-top-fixer {
-  margin-top: -3vw;
+
+#add_to_cart {
+  margin-left: 2vw;
+  font-size: 1.9vw;
+  border-radius: 0%;
+  border-color: #ff794d;
+  width: 15vw;
+  font-family: "Noto Sans", sans-serif;
+  height: 5vw;
 }
-/*/For the articles*/
+#buy_now {
+  margin-left: 2vw;
+  font-size: 1.9vw;
+  border-radius: 0%;
+  border-color: #ff794d;
+  background-color: #ff794d;
+  width: 15vw;
+  height: 5vw;
+  font-family: "Noto Sans", sans-serif;
+}
