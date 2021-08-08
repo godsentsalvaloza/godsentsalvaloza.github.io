@@ -1,5 +1,5 @@
 /*Version v0.04.0 light compiled on 7/26/2021 build 072621*/
-/*making the footer stay at the bottom of the webpage*/
+/*making the footer stay at the bottom of the webpage1*/
 html,
 body {
   height: 100%;
@@ -20,7 +20,7 @@ body {
   margin-right: -8px;
 }
 #footer-text {
-  color: #e6e6e6;
+  color: #d9d9d9;
   font-family: "Noto Sans", sans-serif;
   font-size: 2vw;
 }
@@ -33,9 +33,10 @@ body {
   margin-top: -8px;
 }
 #navigation_bar_name {
-  color: #e6e6e6;
+  color: #f2f2f2;
   font-family: "Noto Sans", sans-serif;
   font-size: 4vw;
+  margin-left: 1vw;
 }
 
 #naviation_links {
@@ -43,10 +44,10 @@ body {
   font-family: "Noto Sans", sans-serif;
   display: inline;
   text-align: right;
-  margin-left: 5vw;
+  margin-left: 30vw;
 }
 .navigation_options {
-  display: inline;
+  display: inline-block;
   margin-left: 2vw;
 }
 a.naviations_hyperlinks:link {
@@ -65,45 +66,53 @@ a.naviations_hyperlinks {
   text-decoration: none;
 }
 /*/Naviation Bar style*/
-/*Quote-below-the-header*/
-#quote-on-the-start {
-  text-align: center;
+#product_image {
+  width: 35vw;
+  height: 30vw;
+  margin-top: 3vw;
+  float: left;
+}
+#product_name {
+  padding-left: 2vw;
+  font-size: 5vw;
   font-family: "Noto Sans", sans-serif;
-  font-size: 3.5vw;
-  color: #d9d9d9;
-}
-/*/Quote-below-the-header*/
-/*Profile picture*/
-#profile-picture-page {
-  border-radius: 50%;
-  width: 20vw;
-  height: 20vw;
-}
-#profile-picture-webpage {
-  text-align: center;
-  margin-top: -2vw;
-}
-/*/Profile picture*/
-/*Profile Name*/
-#profile-name-text {
-  font-family: "Noto Sans", sans-serif;
-  text-align: center;
-  font-size: 2.5vw;
   color: #cccccc;
 }
-/*/Profile Name*/
-/*For the articles*/
-.header-of-info {
+#stars_reviews {
+  padding-left: 2vw;
+  font-size: 2.5vw;
   font-family: "Noto Sans", sans-serif;
-  font-size: 3.5vw;
   color: #cccccc;
 }
-.long-description-about-that-topic {
+#product_price {
+  padding-left: 2vw;
+  font-size: 4vw;
   font-family: "Noto Sans", sans-serif;
-  font-size: 2.5vw;
-  color: #d9d9d9;
+  color: #cc2900;
 }
-.margin-top-fixer {
-  margin-top: -3vw;
+
+#add_to_cart {
+  margin-left: 2vw;
+  font-size: 1.9vw;
+  border-radius: 0%;
+  border-color: #ff794d;
+  width: 15vw;
+  font-family: "Noto Sans", sans-serif;
+  height: 5vw;
+  background-color: #262626;
+  color: #cccccc;
 }
-/*/For the articles*/
+#buy_now {
+  margin-left: 2vw;
+  font-size: 1.9vw;
+  border-radius: 0%;
+  border-color: #ff794d;
+  background-color: #ff794d;
+  width: 15vw;
+  color: #0d0d0d;
+  height: 5vw;
+  font-family: "Noto Sans", sans-serif;
+}
+#buttons {
+  margin-top: 3vw;
+}

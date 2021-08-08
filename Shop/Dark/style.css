@@ -1,5 +1,5 @@
 /*Version v0.04.0 light compiled on 7/26/2021 build 072621*/
-/*making the footer stay at the bottom of the webpage*/
+/*making the footer stay at the bottom of the webpage0*/
 html,
 body {
   height: 100%;
@@ -20,7 +20,7 @@ body {
   margin-right: -8px;
 }
 #footer-text {
-  color: #e6e6e6;
+  color: #d9d9d9;
   font-family: "Noto Sans", sans-serif;
   font-size: 2vw;
 }
@@ -33,9 +33,10 @@ body {
   margin-top: -8px;
 }
 #navigation_bar_name {
-  color: #e6e6e6;
+  color: #f2f2f2;
   font-family: "Noto Sans", sans-serif;
   font-size: 4vw;
+  margin-left: 1vw;
 }
 
 #naviation_links {
@@ -43,10 +44,10 @@ body {
   font-family: "Noto Sans", sans-serif;
   display: inline;
   text-align: right;
-  margin-left: 5vw;
+  margin-left: 45vw;
 }
 .navigation_options {
-  display: inline;
+  display: inline-block;
   margin-left: 2vw;
 }
 a.naviations_hyperlinks:link {
@@ -65,45 +66,59 @@ a.naviations_hyperlinks {
   text-decoration: none;
 }
 /*/Naviation Bar style*/
-/*Quote-below-the-header*/
-#quote-on-the-start {
-  text-align: center;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 3.5vw;
-  color: #d9d9d9;
-}
-/*/Quote-below-the-header*/
-/*Profile picture*/
-#profile-picture-page {
-  border-radius: 50%;
+.product_photo_reziser {
   width: 20vw;
   height: 20vw;
 }
-#profile-picture-webpage {
-  text-align: center;
-  margin-top: -2vw;
+.row_one {
+  margin-top: 3vw;
+  display: inline-block;
+  background-color: #0d0d0d;
+  margin-left: 1vw;
 }
-/*/Profile picture*/
-/*Profile Name*/
-#profile-name-text {
+.product_name {
   font-family: "Noto Sans", sans-serif;
-  text-align: center;
-  font-size: 2.5vw;
-  color: #cccccc;
-}
-/*/Profile Name*/
-/*For the articles*/
-.header-of-info {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 3.5vw;
-  color: #cccccc;
-}
-.long-description-about-that-topic {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 2.5vw;
+  font-size: 2vw;
+  margin-top: 0vw;
+  text-align: left;
   color: #d9d9d9;
 }
-.margin-top-fixer {
-  margin-top: -3vw;
+.product_price {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2vw;
+  margin-top: -1.5vw;
+  text-align: left;
+  color: #d9d9d9;
 }
-/*/For the articles*/
+.product_review_and_sold {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5vw;
+  margin-top: -1.5vw;
+  text-align: right;
+  color: #d9d9d9;
+}
+a.product_hyperlink:link {
+  color: #000;
+}
+a.product_hyperlink:visited {
+  color: #000;
+}
+a.product_hyperlink:hover {
+  color: #ff3300;
+}
+a.product_hyperlink:active {
+  color: #000;
+}
+a.product_hyperlink {
+  text-decoration: none;
+}
+#main-container-products {
+  text-align: center;
+}
+.product_location {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.3vw;
+  color: #cccccc;
+  margin-top: -1.5vw;
+  text-align: right;
+}
