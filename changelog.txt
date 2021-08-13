@@ -1,11 +1,7 @@
-Version 0.04.0 Build 08082021 Changelogs
--Navigational bar revamped
--Font awesome added
--Error404/sorry.html added
--More under the hood improvements!
--Bug fixed where dark mode is showen on navigation bar insted of light mode when under dark mode
--Shop is added
--Performance improved
--Dark Mode on shop added for better expirience
--Responsiveness Bug on products fixed
+Version 0.05.0 Build 081321 Changelog
 
+-Others are added for other contents
+-you can now visit the old versions of the website
+-performance improvement
+-more under the hood tweaks
+-fixed bug on home.html responsiveness problem
