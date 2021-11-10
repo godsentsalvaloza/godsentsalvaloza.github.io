@@ -1,0 +1,50 @@
+p#title {
+  font-size: 5vw;
+  background-color: #4d4d4d;
+  color: #f2f2f2;
+  margin: -8px;
+}
+p,
+h1 {
+  font-family: "Noto Sans", sans-serif;
+}
+#helloname {
+  font-size: 4vw;
+  text-align: center;
+  color: #000000;
+}
+#helloworld {
+  margin-top: 7vw;
+}
+#profilepic {
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+}
+#profile {
+  text-align: center;
+  margin-top: -2vw;
+}
+#articles {
+  margin-top: 10vw;
+}
+p#FIRST {
+  font-size: 2.5vw;
+}
+#information {
+  font-size: 4vw;
+}
+.second-sentence {
+  margin-top: -2vw;
+}
+#versioninfo {
+  background-color: #4d4d4d;
+  color: #f2f2f2;
+  margin-left: -8px;
+  margin-right: -8px;
+  font-size: 2vw;
+  margin-bottom: -5vw;
+}
+footer {
+  margin-top: 5vw;
+}
