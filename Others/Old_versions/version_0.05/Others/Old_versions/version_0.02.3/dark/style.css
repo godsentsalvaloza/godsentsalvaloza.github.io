@@ -1,0 +1,113 @@
+/*Compiled on 07/01/2021 Version Beta 0.02.3*/
+html,
+body {
+  height: 100%;
+  background-color: #000000;
+}
+#container {
+  min-height: 100%;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+}
+#main {
+  padding-bottom: 5vw;
+  padding-left: 8px;
+}
+footer {
+  background-color: #1a1a1a;
+  position: relative;
+  height: 5vw;
+  margin-top: -5vw;
+  clear: both;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+p#title {
+  font-size: 5vw;
+  background-color: #1a1a1a;
+  color: #e6e6e6;
+
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: 0;
+  padding-left: 5px;
+  margin-bottom: -8px;
+}
+p,
+h1,
+li {
+  font-family: "Noto Sans", sans-serif;
+}
+#helloname {
+  font-size: 4vw;
+  text-align: center;
+  color: #cccccc;
+}
+#helloworld {
+  margin-top: 7vw;
+}
+#profilepic {
+  border-radius: 50%;
+  width: 20vw;
+  height: 20vw;
+}
+#profile {
+  text-align: center;
+  margin-top: -2vw;
+}
+.articles {
+  margin-top: 10vw;
+  color: #bfbfbf;
+}
+p.contents-container-information {
+  font-size: 2.5vw;
+}
+.information-topic {
+  font-size: 4vw;
+}
+.second-sentence {
+  margin-top: -2vw;
+}
+#profilename {
+  text-align: center;
+}
+#owner-name {
+  font-size: 2.5vw;
+  color: #bfbfbf;
+}
+#navigation {
+  display: inline;
+  font-size: 3vw;
+  margin-right: 1vw;
+}
+#lists-nav {
+  background-color: #1a1a1a;
+  margin-left: -8px;
+  margin-right: 0px;
+  margin-top: -1px;
+}
+
+a:link {
+  color: #cccccc;
+}
+
+a:visited {
+  color: #cccccc;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: #cccccc;
+}
+a {
+  text-decoration: none;
+}
+#footer-text {
+  font-size: 2vw;
+  color: #f2f2f2;
+}

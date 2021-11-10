@@ -1,0 +1,124 @@
+/*<!--Version 0.05.2 Dark build 110721-->*/
+/*making the footer stay at the bottom of the webpage0*/
+html,
+body {
+  height: 100%;
+  background-color: #000;
+}
+#main-container-for-all {
+  min-height: 100%;
+}
+#main-contents {
+  padding-bottom: 3vw;
+}
+#main-footer {
+  background-color: #1a1a1a;
+  position: relative;
+  height: 5vw;
+  margin-top: -3vw;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+#footer-text {
+  color: #d9d9d9;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2vw;
+}
+/*/making the footer stay at the bottom of the webpage*/
+/*Naviation Bar style*/
+#primary_navigation_bar {
+  background-color: #1a1a1a;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+}
+#navigation_bar_name {
+  color: #f2f2f2;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 4vw;
+  margin-left: 1vw;
+}
+
+#naviation_links {
+  font-size: 2.5vw;
+  font-family: "Noto Sans", sans-serif;
+  display: inline;
+  text-align: right;
+  margin-left: 45vw;
+}
+.navigation_options {
+  display: inline-block;
+  margin-left: 2vw;
+}
+a.naviations_hyperlinks:link {
+  color: #d9d9d9;
+}
+a.naviations_hyperlinks:visited {
+  color: #d9d9d9;
+}
+a.naviations_hyperlinks:hover {
+  color: #ff3300;
+}
+a.naviations_hyperlinks:active {
+  color: #d9d9d9;
+}
+a.naviations_hyperlinks {
+  text-decoration: none;
+}
+/*/Naviation Bar style*/
+.product_photo_reziser {
+  width: 20vw;
+  height: 20vw;
+}
+.row_one {
+  margin-top: 3vw;
+  display: inline-block;
+  background-color: #0d0d0d;
+  margin-left: 1vw;
+}
+.product_name {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2vw;
+  margin-top: 0vw;
+  text-align: left;
+  color: #d9d9d9;
+}
+.product_price {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2vw;
+  margin-top: -1.5vw;
+  text-align: left;
+  color: #d9d9d9;
+}
+.product_review_and_sold {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5vw;
+  margin-top: -1.5vw;
+  text-align: right;
+  color: #d9d9d9;
+}
+a.product_hyperlink:link {
+  color: #000;
+}
+a.product_hyperlink:visited {
+  color: #000;
+}
+a.product_hyperlink:hover {
+  color: #ff3300;
+}
+a.product_hyperlink:active {
+  color: #000;
+}
+a.product_hyperlink {
+  text-decoration: none;
+}
+#main-container-products {
+  text-align: center;
+}
+.product_location {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.3vw;
+  color: #cccccc;
+  margin-top: -1.5vw;
+  text-align: right;
+}

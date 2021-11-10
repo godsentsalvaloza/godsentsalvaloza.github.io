@@ -1,0 +1,6 @@
+Version 0.05.1 Build 110421 Changelog
+
+-Images are now loaded locally for faster performance
+-performance improvement
+-more under the hood tweaks
+-Source code are publically available

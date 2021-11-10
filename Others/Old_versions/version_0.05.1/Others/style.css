@@ -1,0 +1,96 @@
+/*Version 0.05.1 Light build 110421*/
+/*making the footer stay at the bottom of the webpage*/
+html,
+body {
+  height: 100%;
+}
+#main-container-for-all {
+  min-height: 100%;
+}
+#main-contents {
+  padding-bottom: 3vw;
+}
+#main-footer {
+  background-color: #333333;
+  position: relative;
+  height: 5vw;
+  margin-top: -3vw;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+#footer-text {
+  color: #d9d9d9;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2vw;
+}
+/*/making the footer stay at the bottom of the webpage*/
+/*Naviation Bar style*/
+#primary_navigation_bar {
+  background-color: #333;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -8px;
+}
+#navigation_bar_name {
+  color: #f2f2f2;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 4vw;
+}
+
+#naviation_links {
+  font-size: 2.5vw;
+  font-family: "Noto Sans", sans-serif;
+  display: inline;
+  text-align: right;
+  margin-left: 5vw;
+}
+.navigation_options {
+  display: inline;
+  margin-left: 2vw;
+}
+a.naviations_hyperlinks:link {
+  color: #d9d9d9;
+}
+a.naviations_hyperlinks:visited {
+  color: #d9d9d9;
+}
+a.naviations_hyperlinks:hover {
+  color: #ff3300;
+}
+a.naviations_hyperlinks:active {
+  color: #d9d9d9;
+}
+a.naviations_hyperlinks {
+  text-decoration: none;
+}
+/*/Naviation Bar style*/
+/*For the articles*/
+.header-of-info {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 3.5vw;
+}
+.info-about-options {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2.5vw;
+  margin-top: -1vw;
+}
+.long-description-about-that-topic {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2.5vw;
+}
+.margin-top-fixer {
+  margin-top: -3vw;
+}
+/*/For the articles*/
+a.old_version:link {
+  color: #000;
+}
+a.old_version:visited {
+  color: #000;
+}
+a.old_version:hover {
+  color: #ff3300;
+}
+a.old_version:active {
+  color: #000;
+}
