@@ -1,0 +1,109 @@
+/*SILANGAN NATIONAL HIGH SCHOOL UNOFFICIAL WEBPAGE MADE ON 08/02/2022*/
+/*For sticky footer*/
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+footer#page-footer {
+  margin-top: auto;
+  background-color: #2db300;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -10vw;
+  /*/For sticky footer*/
+  /*Navigational Bar*/
+}
+#snhs-nav-logo {
+  width: 21vw;
+  display: block;
+}
+#navigational-bar {
+  background-color: #2db300;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  height: 8vw;
+}
+ul#nav-links-container {
+  list-style-type: none;
+  margin-left: 25vw;
+  margin-top: -4vw;
+  max-height: 1vw;
+}
+li.nav-list-list {
+  display: inline;
+  font-size: 1.3vw;
+  padding-left: 2vw;
+  font-family: "Noto Sans", sans-serif;
+}
+a.nav-links {
+  text-decoration: none;
+}
+/* unvisited link */
+a.nav-links:link {
+  color: #1a1a1a;
+}
+
+/* visited link */
+a.nav-links:visited {
+  color: #1a1a1a;
+}
+
+/* mouse over link */
+a.nav-links:hover {
+  color: #b32d00;
+}
+
+/* selected link */
+a.nav-links:active {
+  color: blue;
+}
+/*/Navigational Bar*/
+/*School-building-photo*/
+#school-image-bldg {
+  width: 100%;
+  object-fit: fill;
+  height: 30vw;
+}
+#school-photo {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+/*School-building-photo*/
+/* Footer of the webpage*/
+#image-footer-deped {
+  width: 4vw;
+  margin-left: 2vw;
+}
+#image-footer-transparency {
+  width: 4.2vw;
+  margin-bottom: 0.05vw;
+}
+#image-footer-foi {
+  width: 4.7vw;
+  margin-bottom: -0.2vw;
+  margin-left: -0.3vw;
+}
+#image-footer-snhs {
+  width: 16vw;
+  margin-bottom: -0.3vw;
+  margin-left: -0.5vw;
+}
+div#images-container-footer {
+  margin-top: 1vw;
+  margin-bottom: 3vw;
+}
+hr#hr-footer {
+  width: 95%;
+  margin-top: 3vw;
+}
+p#copyright-version-text {
+  font-size: 1.3vw;
+  font-family: "Noto Sans", sans-serif;
+  margin-left: 1vw;
+}
+/* /Footer of the webpage*/
