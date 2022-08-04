@@ -74,6 +74,38 @@ a.nav-links:active {
   margin-right: -8px;
 }
 /*School-building-photo*/
+div#quicklinks-container {
+  background-color: #2db300;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -4px;
+  height: 9vw;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 10vw;
+}
+span#quicklinks-indicator {
+  color: #1a1a1a;
+  font-size: 2vw;
+  margin-left: 8vw;
+  padding-top: 3vw;
+  display: block;
+}
+button.quicklinks-buttons {
+  font-size: 1.8vw;
+  padding: 1vw 8vw;
+  margin-right: 1vw;
+  border: 0.2vw solid white;
+  background-color: #2db300;
+}
+button.quicklinks-buttons:hover {
+  background-color: white;
+  transition-duration: 0.4s;
+  color: #2db300;
+}
+div#buttons-container {
+  margin-left: 20vw;
+  margin-top: -3.5vw;
+}
 /* Footer of the webpage*/
 #image-footer-deped {
   width: 4vw;
