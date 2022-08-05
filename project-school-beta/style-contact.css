@@ -1,0 +1,64 @@
+/*SILANGAN NATIONAL HIGH SCHOOL UNOFFICIAL WEBPAGE MADE ON 08/02/2022*/
+/*LAST UPDATED 08/05/2022*/
+h1#contact-indicator {
+  text-align: center;
+  font-size: 3vw;
+}
+p.contact-text {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.3vw;
+  margin-left: 8vw;
+  margin-bottom: 4vw;
+}
+p.contact-text-2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.3vw;
+  margin-left: 8vw;
+}
+p.contact-text-3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.3vw;
+  margin-left: 8vw;
+  margin-top: 3vw;
+}
+p.contact-text-2-link {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.3vw;
+  margin-left: 8vw;
+  font-weight: bold;
+}
+a.contacts-hyperlink {
+  text-decoration: none;
+}
+div#contact-container-page {
+  margin-bottom: 0vw;
+}
+/* unvisited link */
+a.contacts-hyperlink:link {
+  color: #1a1a1a;
+}
+
+/* visited link */
+a.contacts-hyperlink:visited {
+  color: #1a1a1a;
+}
+
+/* mouse over link */
+a.contacts-hyperlink:hover {
+  color: #ff3300;
+  transition-duration: 0.4s;
+}
+
+/* selected link */
+a.contacts-hyperlink:active {
+  color: #1a1a1a;
+}
+hr#hr-footer-contacts {
+  width: 80%;
+  margin-top: 3vw;
+  background-color: black;
+  border: black solid 0.1vw;
+}
+div#contact-container-page-last-part {
+  margin-bottom: 20vw;
+}
