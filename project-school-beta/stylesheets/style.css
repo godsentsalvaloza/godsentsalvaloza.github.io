@@ -64,6 +64,18 @@ a.nav-links:hover {
 a.nav-links:active {
   color: #1a1a1a;
 }
+button.navbar-button {
+  width: 5avbar-buttonvw;
+  font-size: 1.3vw;
+  background-color: #2db300;
+  border: none;
+}
+
+button.navbar-button:hover {
+  background-color: white;
+  transition-duration: 0.4s;
+  color: #2db300;
+}
 /*/Navigational Bar*/
 /*School-building-photo*/
 #school-image-bldg {
