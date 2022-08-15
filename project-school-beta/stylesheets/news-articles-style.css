@@ -1,0 +1,37 @@
+/*SILANGAN NATIONAL HIGH SCHOOL UNOFFICIAL WEBPAGE MADE ON 08/15/2022*/
+/*LAST UPDATED 08/05/2022*/
+article#article-content-container {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+h1#header-for-the-article {
+  text-align: center;
+  font-size: 3vw;
+}
+img#photo-article-header {
+  height: 28vw;
+  width: 55vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+p#information-about-the-article {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1vw;
+  font-weight: bold;
+}
+span#written-by-highlighter {
+  color: #2db300;
+}
+p#contents-of-the-article-news {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.3vw;
+}
+div#main-article-information-divider {
+  margin-left: 7.8vw;
+  margin-right: 8vw;
+}
+div#information-article-divider {
+  margin-left: 7.8vw;
+  margin-top: -2.5vw;
+}
