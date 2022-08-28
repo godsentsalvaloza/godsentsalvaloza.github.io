@@ -1,9 +1,12 @@
 /*SILANGAN NATIONAL HIGH SCHOOL UNOFFICIAL WEBPAGE MADE ON 08/02/2022*/
 /*LAST UPDATED 08/05/2022*/
+/*Contact header*/
 h1#contact-indicator {
   text-align: center;
   font-size: 3vw;
 }
+/*Contact header*/
+/*Contact informations*/
 p.contact-text {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.3vw;
@@ -48,8 +51,9 @@ a.contacts-hyperlink:hover {
   color: #ff3300;
   transition-duration: 0.4s;
 }
-
 /* selected link */
+/*/Contact informations*/
+/*About the developer*/
 a.contacts-hyperlink:active {
   color: #1a1a1a;
 }
@@ -62,3 +66,4 @@ hr#hr-footer-contacts {
 div#contact-container-page-last-part {
   margin-bottom: 20vw;
 }
+/*/About the developer*/

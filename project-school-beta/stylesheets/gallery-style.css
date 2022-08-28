@@ -1,0 +1,13 @@
+/*SILANGAN NATIONAL HIGH SCHOOL UNOFFICIAL WEBPAGE MADE ON 08/15/2022*/
+/*LAST UPDATED 08/28/2022*/
+h1#gallery-header {
+  text-align: center;
+}
+img.image-gallery {
+  width: 60vw;
+  height: 35vw;
+}
+div.image-gallery-container {
+  text-align: center;
+  margin-bottom: 4vw;
+}
