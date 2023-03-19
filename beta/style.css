@@ -1,0 +1,51 @@
+/*Godsent's personal website made on 03/19/2023 version 0.01*/
+/*Last updated: 03/19/2023*/
+
+/*For making the footer stick to the bottom of the page*/
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+  background-color: #2db300;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -10vw;
+}
+/* </>For making the footer stick to the bottom of the page*/
+
+/*Navigational Bar*/
+
+/*Nav Name*/
+nav#topNavigationalBar {
+  background-color: #333;
+  margin: -8px;
+}
+span#navName {
+  color: #f2f2f2;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 4vw;
+  padding-left: 0.5vw;
+  padding-right: 4vw;
+}
+/*</>Nav Name*/
+
+/*Nav links*/
+button.nav-buttons {
+  font-size: 1.8vw;
+  margin-right: 1.8vw;
+  font-family: "Noto Sans", sans-serif;
+  border: none;
+  color: #d9d9d9;
+  background-color: #333333;
+  transition-duration: 0.4s;
+}
+button.nav-buttons:hover {
+  color: #333333;
+  background-color: #d9d9d9;
+}
