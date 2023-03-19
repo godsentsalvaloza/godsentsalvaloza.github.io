@@ -1,51 +1,93 @@
 /*Godsent's personal website made on 03/19/2023 version 0.01*/
 /*Last updated: 03/19/2023*/
 
+
 /*For making the footer stick to the bottom of the page*/
-html {
-  height: 100%;
-}
-body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-footer {
-  margin-top: auto;
-  background-color: #2db300;
-  margin-left: -8px;
-  margin-right: -8px;
-  margin-bottom: -10vw;
-}
+  html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    margin-top: auto;
+    background-color: #333;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10vw;
+    height: 8vw;
+  }
 /* </>For making the footer stick to the bottom of the page*/
 
-/*Navigational Bar*/
+/*Top Navigational Bar*/
+  /*Nav Name*/
+    nav#topNavigationalBar {
+      background-color: #333;
+      margin: -8px;
+    }
+    span#topNavName {
+      color: #f2f2f2;
+      font-family: "Noto Sans", sans-serif;
+      font-size: 4vw;
+      padding-left: 0.5vw;
+      padding-right: 4vw;
+    }
+  /*</>Nav Name*/
 
-/*Nav Name*/
-nav#topNavigationalBar {
-  background-color: #333;
-  margin: -8px;
-}
-span#navName {
-  color: #f2f2f2;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 4vw;
-  padding-left: 0.5vw;
-  padding-right: 4vw;
-}
-/*</>Nav Name*/
+  /*Nav links*/
+    button.navButtons {
+      font-size: 1.8vw;
+      margin-right: 1.8vw;
+      font-family: "Noto Sans", sans-serif;
+      border: none;
+      color: #d9d9d9;
+      background-color: #333333;
+      transition-duration: 0.4s;
+    }
+    button.navButtons:hover {
+      color: #333333;
+      background-color: #d9d9d9;
+    }
+  /*</>Nav links*/
+/*Top Navigational Bar*/
 
-/*Nav links*/
-button.nav-buttons {
-  font-size: 1.8vw;
-  margin-right: 1.8vw;
-  font-family: "Noto Sans", sans-serif;
-  border: none;
-  color: #d9d9d9;
-  background-color: #333333;
-  transition-duration: 0.4s;
-}
-button.nav-buttons:hover {
-  color: #333333;
-  background-color: #d9d9d9;
-}
+/*Bottom Navigational Bar*/
+    nav#bottomNavigationalBar {
+      margin-top: 3vw;
+    }
+      /*Nav Name*/
+        span#bottomNavName{
+          font-family: "Noto Sans", sans-serif;
+          color: #f2f2f2;
+          font-size: 1.8vw;
+          padding-right: 4vw;
+          padding-left: 0.5vw;
+        }
+      /*</>Nav Name*/
+/*</>Bottom Navigational Bar*/
+
+/*Quote*/
+  div#websiteQuoteContainer{
+    margin-top: 3vw;
+  }
+  h1#quoteText{
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 3.5vw;
+    font-weight: normal;
+
+  }
+/*</>Quote*/
+
+/*Profile Picture*/
+  img#profilePicture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vw;
+    border-radius: 50%;
+  }
+/*</>Profile Picture*/
+
