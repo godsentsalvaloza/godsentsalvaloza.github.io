@@ -17,7 +17,7 @@
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -10vw;
-    height: 8vw;
+    height: 12vw;
   }
 /* </>For making the footer stick to the bottom of the page*/
 
@@ -32,14 +32,14 @@
       font-family: "Noto Sans", sans-serif;
       font-size: 4vw;
       padding-left: 0.5vw;
-      padding-right: 4vw;
+      padding-right: 2vw;
     }
   /*</>Nav Name*/
 
   /*Nav links*/
     button.navButtons {
       font-size: 1.8vw;
-      margin-right: 1.8vw;
+      margin-right: 1vw;
       font-family: "Noto Sans", sans-serif;
       border: none;
       color: #d9d9d9;
