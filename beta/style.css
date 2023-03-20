@@ -63,7 +63,7 @@ button.navButtonsBottom {
   color: #d9d9d9;
   background-color: #333333;
   transition-duration: 0.4s;
-  max-width: 15vw;
+  max-width: 23vw;
   max-height: 2vw;
 }
 button.navButtonsBottom:hover {
