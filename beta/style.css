@@ -18,6 +18,7 @@
     margin-right: -8px;
     margin-bottom: -10vw;
     height: 12vw;
+    max-height: 20vw;
   }
 /* </>For making the footer stick to the bottom of the page*/
 
@@ -26,25 +27,31 @@
     nav#topNavigationalBar {
       background-color: #333;
       margin: -8px;
+      max-height: 7vw;
     }
     span#topNavName {
       color: #f2f2f2;
       font-family: "Noto Sans", sans-serif;
-      font-size: 4vw;
+      font-size: 3vw;
       padding-left: 0.5vw;
       padding-right: 2vw;
+      max-height: 1vw;
+
     }
   /*</>Nav Name*/
 
   /*Nav links*/
     button.navButtons {
-      font-size: 1.8vw;
+      font-size: 1.5vw;
       margin-right: 1vw;
       font-family: "Noto Sans", sans-serif;
       border: none;
       color: #d9d9d9;
       background-color: #333333;
       transition-duration: 0.4s;
+      max-width: 15vw;
+      max-height: 2vw;
+
     }
     button.navButtons:hover {
       color: #333333;
