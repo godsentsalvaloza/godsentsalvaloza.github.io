@@ -1,5 +1,5 @@
 /*Godsent's personal website made on 03/19/2023 version 0.01*/
-/*Last updated: 03/21/2023*/
+/*Last updated: 03/24/2023*/
 
 /*For making the footer stick to the bottom of the page*/
   html {
@@ -31,7 +31,7 @@
       }
       span#topNavName {
         color: #f2f2f2;
-        font-family: "Noto Sans", sans-serif;
+        font-family: "Noto Sans", sans-serif  ;
         font-size: 3vw;
         padding-left: 0.5vw;
         padding-right: 2vw;
@@ -55,25 +55,123 @@
       color: #333333;
       background-color: #d9d9d9;
     }
-    button.navButtonsBottom {
-      font-size: 1.3vw;
-      margin-right: 1.3vw;
-      font-family: "Noto Sans", sans-serif;
-      border: none;
-      color: #d9d9d9;
-      background-color: #333333;
-      transition-duration: 0.4s;
-      max-width: 23vw;
-      max-height: 2vw;
-    }
-    button.navButtonsBottom:hover {
-      color: #333333;
-      background-color: #d9d9d9;
-    }
   /*</>Nav links*/
 /*Top Navigational Bar*/
 
+/*Quote*/
+div#websiteQuoteContainer {
+  margin-top: 3vw;
+}
+h1#quoteText {
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 3.5vw;
+  font-weight: normal;
+}
+/*</>Quote*/
+
+/*Profile Picture*/
+img#profilePicture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20vw;
+  margin-top: -1vw;
+  border-radius: 50%;
+}
+/*</>Profile Picture*/
+
+/*Name of the owner*/
+h2#websiteOwner{
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2.5vw;
+
+}
+div#NameContainer{
+  margin-top: -1vw;
+}
+p#nameCredential{
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1vw;
+  margin-top: -2vw;
+  font-weight: 500;
+}
+/*</>Name of the owner*/
+
+/*Content*/
+article.pageContent {
+  margin: 0.5vw;
+}
+h3.contentHeading {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 3vw;
+  margin-bottom: -1vw;
+}
+p.contentMain {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.8vw;
+}
+/*Contact*/
+  p.contactInfo {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.5vw;
+  }
+  a.contactLink{
+    text-decoration: none;
+  }
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    transition-duration: 0.4s;
+  }
+    
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+    transition-duration: 0.4s;
+  }
+    
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    transition-duration: 0.4s;
+  }
+    
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+    transition-duration: 0.4s;
+    }
+  
+/*</>Contact*/
+
+/*</>Content/*
+
 /*Bottom Navigational Bar*/
+  button.navButtonsBottom {
+    font-size: 1.3vw;
+    margin-right: 1.3vw;
+    font-family: "Noto Sans", sans-serif;
+    border: none;
+    color: #d9d9d9;
+    background-color: #333333;
+    transition-duration: 0.4s;
+    max-width: 23vw;
+    max-height: 8vw;
+  }
+  button.navButtonsBottom:hover {
+    color: #333333; 
+    background-color: #d9d9d9;
+  }
+  div#bottomLinkContainer{
+    margin-left: 1vw;
+  }
   nav#bottomNavigationalBar {
     margin-top: 1vw;
   }
@@ -87,99 +185,3 @@
     }
   /*</>Nav Name*/
 /*</>Bottom Navigational Bar*/
-
-/*Quote*/
-  div#websiteQuoteContainer {
-    margin-top: 3vw;
-  }
-  h1#quoteText {
-    text-align: center;
-    font-family: "Noto Sans", sans-serif;
-    font-size: 3.5vw;
-    font-weight: normal;
-  }
-/*</>Quote*/
-
-/*Profile Picture*/
-  img#profilePicture {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20vw;
-    margin-top: -1vw;
-    border-radius: 50%;
-  }
-/*</>Profile Picture*/
-
-/*Name of the owner*/
-  h2#websiteOwner{
-    text-align: center;
-    font-family: "Noto Sans", sans-serif;
-    font-size: 2.5vw;
-
-  }
-  div#NameContainer{
-    margin-top: -1vw;
-  }
-  p#nameCredential{
-    text-align: center;
-    font-family: "Noto Sans", sans-serif;
-    font-size: 1vw;
-    margin-top: -2vw;
-    font-weight: 500;
-  }
-/*</>Name of the owner*/
-
-/*Content*/
-  article.pageContent {
-    margin: 0.5vw;
-  }
-  h3.contentHeading {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 3vw;
-    margin-bottom: -1vw;
-  }
-  p.contentMain {
-    font-family: "Noto Sans", sans-serif;
-    font-size: 1.8vw;
-  }
-  /*Contact*/
-    p.contactInfo {
-      font-family: "Noto Sans", sans-serif;
-      font-size: 1.5vw;
-    }
-    a.contactLink{
-      text-decoration: none;
-    }
-    a:link {
-      color: green;
-      background-color: transparent;
-      text-decoration: none;
-      transition-duration: 0.4s;
-    }
-      
-    a:visited {
-      color: pink;
-      background-color: transparent;
-      text-decoration: none;
-      transition-duration: 0.4s;
-    }
-      
-    a:hover {
-      color: red;
-      background-color: transparent;
-      text-decoration: underline;
-      transition-duration: 0.4s;
-    }
-      
-    a:active {
-      color: yellow;
-      background-color: transparent;
-      text-decoration: underline;
-      transition-duration: 0.4s;
-      }
-    
-  /*</>Contact*/
-  
-/*</>Content/*
-

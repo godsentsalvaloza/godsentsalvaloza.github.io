@@ -1,5 +1,5 @@
 <!--Godsent's personal website made on 03/19/2023 version 0.01-->
-<!--Last updated: 03/21/2023-->
+<!--Last updated: 03/31/2023-->
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -24,24 +24,25 @@
     <title>Home | Godsent Salvaloza</title>
   </head>
 
-  <body>
+  <body id="mainBody">
     <!--Nav Bar-->
       <nav id="topNavigationalBar">
         <span id="topNavName">Godsent Salvaloza</span>
         <a href="#" class="navLinksTop"
-          ><button class="navButtonsTop">Home</button></a
+          ><button class="navButtonsTop" id="homeHyperLink">Home</button></a
         >
         <a href="#" class="navLinksTop"
-          ><button class="navButtonsTop">About</button></a
+          ><button class="navButtonsTop" id="aboutHyperLink">About</button></a
         >
         <a href="#" class="navLinksTop"
-          ><button class="navButtonsTop">Blogs</button></a
+          ><button class="navButtonsTop" id="blogsHyperlink">Blogs</button></a
         >
         <a href="#" class="navLinksTop"
-          ><button class="navButtonsTop">Others</button></a
+          ><button class="navButtonsTop" id="othersHyperlink">Others</button></a
         >
-        <a href="#" class="navLinksTop"
-          ><button class="navButtonsTop">Dark Mode</button></a
+        <button class="navButtonsTop" id="darkModeSelector" style="display: inline;" onclick="darkMode()">Dark Mode</button></a
+        >
+        <button class="navButtonsTop" id="lightModeSelector" style="display: none;">Light Mode</button></a
         >
       </nav>
     <!--/Nav Bar-->
@@ -71,43 +72,49 @@
 
     <!--Content-->
     <article class="pageContent">
-      <h3 class="contentHeading">About</h3>
-        <p class="contentMain">Hello, I’m Godsent! An aspiring programmer with a basic knowledge about digital security and privacy. This website is all about sharing my learnings and making new systems as I learn new things. As of now, I’m learning web development, hence for the constant changes for this website. Thank you for paying a visit to my website!</p>
+      <h3 class="contentHeading" id="headingFirst">About</h3>
+        <p class="contentMain" id="contentOne">Hello, I’m Godsent! An aspiring programmer with a basic knowledge about digital security and privacy. This website is all about sharing my learnings and making new systems as I learn new things. As of now, I’m learning web development, hence for the constant changes for this website. Thank you for paying a visit to my website!</p>
     </article>
     <article class="pageContent">
-      <h3 class="contentHeading">Contact</h3>
-        <p class="contentMain">If you have any concern or suggestions, please feel free to reach me out:</p>
-        <p class="contactInfo">godsentsalvaloza - <a href="http://www.github.com/godsentsalvaloza" class="contactLink">Github</a></p>
-        <p class="contactInfo">godsentsalvalozaX@protonmail.com - <a href="mailto:godsentsalvalozaX@protonmail.com" class="contactLink">Email</a></p>
+      <h3 class="contentHeading" id="headingSecond">Contact</h3>
+        <p class="contentMain" id="contentTwo">If you have any concern or suggestions, please feel free to reach me out:</p>
+        <p class="contactInfo" id="contentThree">godsentsalvaloza - <a href="http://www.github.com/godsentsalvaloza" class="contactLink">Github</a></p>
+        <p class="contactInfo" id="contentFour">godsentsalvalozaX@protonmail.com - <a href="mailto:godsentsalvalozaX@protonmail.com" class="contactLink">Email</a></p>
     </article>
     <!--/Content-->
 
 
-    <footer>
+    <footer id="footerPage">
       <!--Nav bar-->
         <nav id="bottomNavigationalBar">
-          <div id="test">
+          <div id="bottomLinkContainer">
             <a href="#" class="navLinks"
-              ><button class="navButtonsBottom">Home</button></a
+              ><button class="navButtonsBottom" id="homeNavBottom">Home</button></a
             >
             <a href="#" class="navLinks"
-              ><button class="navButtonsBottom">About</button></a
+              ><button class="navButtonsBottom" id="aboutNavBottom">About</button></a
             >
             <a href="#" class="navLinks"
-              ><button class="navButtonsBottom">Blogs</button></a
+              ><button class="navButtonsBottom" id="blogsNavBottom">Blogs</button></a
             >
             <a href="#" class="navLinks"
-              ><button class="navButtonsBottom">Others</button></a
+              ><button class="navButtonsBottom"id="othersNavBottom">Others</button></a
             >
             <a href="#topNavigationalBar" class="navLinks"
-              ><button class="navButtonsBottom">Back To Top</button></a
+              ><button class="navButtonsBottom" id="backNavBottom">Back To Top</button></a
             >
           </div>
 
           <p id="bottomNavName">Godsent Salvaloza</p>
-          <p id="bottomNavName">Version 0.01 Beta</p>
+          <p id="bottomNavName">Version 0.01 Alpha</p>
         </nav>
       <!--/Nav bar-->
     </footer>
+
+
+    <!--Javacript-->
+      <script src="./script.js"></script>
+    <!--Javacript-->
+    
   </body>
 </html>
