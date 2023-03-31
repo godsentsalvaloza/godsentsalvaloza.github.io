@@ -48,7 +48,7 @@
       color: #d9d9d9;
       background-color: #333333;
       transition-duration: 0.4s;
-      max-width: 15vw;
+      max-width: 20vw;
       max-height: 4vw;
     }
     button.navButtonsTop:hover {
