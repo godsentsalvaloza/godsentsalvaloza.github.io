@@ -188,3 +188,81 @@ p#bottomNameHeader{
     }
   /*</>Nav Name*/
 /*</>Bottom Navigational Bar*/
+
+
+
+
+
+/*ABOUT PAGE*/
+    div#mainAboutContainer {
+      margin-left: 5vw;
+      margin-right: 5vw;
+    }
+    h1#aboutHeader {
+      font-family: "Noto Sans", sans-serif;
+      font-size: 3.5vw;
+      margin-top: 10vw;
+      text-align: center;
+    }
+    article#aboutContentContainer {
+      margin-top: 10vw;
+    }
+    hr#hrAbout{
+      width: 90%;
+
+    }
+    div#aboutContributionName {
+      margin-top: 10vw;
+    }
+    h2#contributionHead {
+      font-family: "Noto Sans", sans-serif;
+      font-size: 2.7vw;
+    }
+    li.contributionPlaceholder {
+        font-family: "Noto Sans", sans-serif;
+        font-size: 2vw;
+    }
+/*</>ABOUT PAGE*/
+
+
+
+
+/*RESOURCES PAGE*/
+    div#mainResourcesContainer {
+      margin-top: 5vw;
+    }
+    h3.resourcesOptionHeader {
+      font-family: "Noto Sans", sans-serif;
+      font-size: 3vw;
+    }
+    p.resourcesOption {
+      font-family: "Noto Sans", sans-serif;
+      font-size: 2.5vw;
+    }
+      a.resourcesOptionLink {
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a.resourcesOptionLink:link {
+        color: green;
+        transition-duration: 0.2s;
+      }
+
+
+      a.resourcesOptionLink:visited {
+        color: green;
+        transition-duration: 0.2s;
+      }
+
+
+      a.resourcesOptionLink:hover {
+        color: red;
+        transition-duration: 0.2s;
+      }
+
+
+      a.resourcesOptionLink:active {
+        color: green;
+        transition-duration: 0.2s;
+      } 
+  /*/RESOURCES PAGE*/
