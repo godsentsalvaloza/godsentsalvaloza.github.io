@@ -274,3 +274,17 @@ p#bottomNameHeader{
         display: block;
       }
    /*</>LEARNING MATERIAL IMAGE*/
+
+
+  /*ADDITION QUIZ*/
+      div.QuestionHeader {
+        display: flex;
+        justify-content: center;
+        margin-top: 4vw;
+      }
+      h1.additionQuestion {
+        font-family: "Noto Sans", sans-serif;
+        font-size: 10vw;
+      }
+      
+   /*</>ADDITION QUIZ*/
