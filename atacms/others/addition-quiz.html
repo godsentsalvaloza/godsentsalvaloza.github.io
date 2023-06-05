@@ -35,61 +35,63 @@
       </nav>
     <!--/Nav Bar-->
 
-    <!--START-->
-      <div id="mainAboutContainer" style="display:block ;">
-
-        <!--HEADER START-->
-          <h1 id="aboutHeader">Simple addition quiz</h1>
-        <!--</>HEADER START-->
-
-        <!--BUTTON START-->
-          <article id="aboutContentContainer">
-            <div id="getStartedContainer">
-              <button id="getStarted" >Start</button>
+    <!--MAIN GAME CONTAINER-->
+      <div id="mainContainerGame">
+        <!--START-->
+          <div id="startContainer" style="display: block;">
+            <h1 class="gameHeader">Simple addition quiz</h1>
+            <div class="gameButtonFixer">
+              <button id="getStarted">Start</button>
             </div>
-          </article>
-        <!--BUTTON START-->
+          </div>
+        <!--/START-->
+      
+
+        <!--DEFEATED-->
+          <div id="defeatContainer" style="display: none;">
+            <h1 class="gameHeader">GAME OVER</h1>
+            <div class="gameButtonFixer">
+              <a href="./addition-quiz.html" id="startLinkParameters">
+                <button class="gameOptionsButton">Start again</button>
+              </a>
+            </div>
+            <div class="gameButtonFixer">
+              <a href="../index.html" id="startLinkParameters">
+                <button class="gameOptionsButton">Return to home</button>
+              </a>
+            </div>
+          </div>
+        <!--/DEFEATED-->
+
+        <!--FIRST QUESTION-->
+          <div id="firstQuestion" style="display:none;">
+            <h1 class="questionHeader">3+3</h1>
+
+            <div class="gameButtonFixer">
+              <button class="gameOptionsButton" id="firstQuestionFirstOption">3!</button>
+            </div>
+            <div class="gameButtonFixer">
+              <button class="gameOptionsButton" id="firstQuestionSecondOption">33</button>
+            </div>
+            <div class="gameButtonFixer">
+              <button class="gameOptionsButton" id="firstQuestionThirdOption">3.14</button>
+            </div>
+            <div class="gameButtonFixer">
+              <button class="gameOptionsButton" id="firstQuestionFourthOption">-6</button>
+            </div>
+          </div>
+        <!--</>FIRST QUESTION-->
+
+
+
 
       </div>
-    <!--/START-->
-
-    <!--FIRST QUESTION-->
-      <div id="firstQuestionContainer" style="display: none;">
-
-        <div class="QuestionHeader">
-          <h1 class="additionQuestion">
-            3+3
-          </h1>
-        </div>
-       
-        <div class="QuestionHeader">
-          <button id="getStarted" >3!</button>
-        </div>
-
-        <div class="QuestionHeader">
-          <button id="getStarted" >33</button>
-        </div>
-
-        <div class="QuestionHeader">
-          <button id="getStarted" >0</button>
-        </div>
-
-        <div class="QuestionHeader">
-          <button id="getStarted" >100</button>
-        </div>
-
-      </div>
-    <!--</>FIRST QUESTION-->       
-
-
-
+   <!--</>MAIN GAME CONTAINER-->
 
 
 
   
     <!--PLACEHOLDER-->
-    <article id="paragraphHolder">
-    </article>
     <article id="paragraphHolder">
     </article>
     <!--/PLACEHOLDER-->

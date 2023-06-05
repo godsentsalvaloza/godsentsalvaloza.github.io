@@ -277,14 +277,39 @@ p#bottomNameHeader{
 
 
   /*ADDITION QUIZ*/
-      div.QuestionHeader {
+      h1.gameHeader{
+        font-family: "Noto Sans", sans-serif;
+        font-size: 5vw;
+      }
+      div#mainContainerGame {
+        display: flex;
+        justify-content: center;
+        margin-top: 5vw;
+      }
+      div.gameButtonFixer {
         display: flex;
         justify-content: center;
         margin-top: 4vw;
       }
-      h1.additionQuestion {
+      h1.questionHeader {
         font-family: "Noto Sans", sans-serif;
         font-size: 10vw;
+        text-align: center;
       }
-      
+      button.gameOptionsButton {
+        font-size: 1.3vw;
+        font-family: "Noto Sans", sans-serif;
+        border: none;
+        width: 30vw;
+        height: 10vw;
+        color: #e6e6e6;
+        background-color: #00661a;
+        transition-duration: 0.4s;
+        font-size: 3vw;
+  
+      }
+      button.gameOptionsButton:hover {
+        color: #00661a; 
+        background-color: #e6e6e6;
+      }
    /*</>ADDITION QUIZ*/
