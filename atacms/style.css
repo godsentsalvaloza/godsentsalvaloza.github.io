@@ -280,6 +280,7 @@ p#bottomNameHeader{
       h1.gameHeader{
         font-family: "Noto Sans", sans-serif;
         font-size: 5vw;
+        text-align: center;
       }
       div#mainContainerGame {
         display: flex;
