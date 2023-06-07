@@ -1,131 +1,120 @@
-<!--Version 0.05.2 Light build 110421-->
+<!--Godsent's personal website made on 03/19/2023 version 0.01-->
+<!--Last updated: 03/31/2023  RELEASE 02-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
-    <!--Meta tags used for website optimization-->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Godsent Salvaloza" />
-    <meta
-      name="keywords"
-      content="Godsent, Godsent Salvaloza, Godsent John Salvaloza"
-    />
-    <!--/Meta tags used for website optimization-->
-    <!--Title of the webpage-->
-    <title>Home | Godsent Salvaloza</title>
-    <!--/Title of the webpage-->
-    <!--Favicon of the webpage-->
-    <link rel="shortcut icon" href="./images/Favicon.jpg" type="image/x-icon" />
-    <!--/Favicon of the webpage-->
-    <!--Link for the css file-->
+    <meta name="description" content="Godsent's personal website" />
+    <meta name="keywords" content="Godsent, Salvaloza, Godsent Salvaloza" />
+    <meta name="author" content="Godsent Salvaloza" />
     <link rel="stylesheet" href="./style.css" />
-    <!--/Link for the css file-->
-    <!--Google Fonts for the webpages Fonts-->
+    <link
+      rel="shortcut icon"
+      href="./resources/favicon.jpg"
+      type="image/x-icon"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&amp;display=swap"
       rel="stylesheet"
     />
-    <!--/Google Fonts for the webpages Fonts-->
-    <!--Font awesome-->
-    <script
-      src="https://kit.fontawesome.com/be62bc45ae.js"
-      crossorigin="anonymous"
-    ></script>
-    <!--Font awesome-->
+
+    <title>Home | Godsent Salvaloza</title>
   </head>
-  <body>
-    <!--For making footer stay at the bottom of the page-->
-    <main id="main-container-for-all">
-      <!--Where alll contents to put-->
-      <main id="main-contents">
-        <!--Navigation bar-->
-        <nav id="primary_navigation_bar">
-          <span id="navigation_bar_name">Godsent Salvaloza</span>
-          <ul id="naviation_links">
-            <li class="navigation_options">
-              <a href="#first-section-locator" class="naviations_hyperlinks">About</a>
-            </li>
-            <li class="navigation_options">
-              <a href="#second-section-locator" class="naviations_hyperlinks">Contact</a>
-            </li>
-            <li class="navigation_options">
-              <a href="./Shop/shop.html" class="naviations_hyperlinks">Shop</a>
-            </li>
-            <li class="navigation_options">
-              <a href="./Dark/index.html" class="naviations_hyperlinks">Dark Mode</a>
-            </li>
-            <li class="navigation_options">
-              <a href="./Others/others.html" class="naviations_hyperlinks">Others</a>
-            </li>
-          </ul>
+
+  <body id="mainBody">
+    <!--Nav Bar-->
+      <nav id="topNavigationalBar">
+        <span id="topNavName">Godsent Salvaloza</span>
+        <a href="#" class="navLinksTop"
+          ><button class="navButtonsTop" id="homeHyperLink">Home</button></a
+        >
+        <a href="#" class="navLinksTop"
+          ><button class="navButtonsTop" id="aboutHyperLink">About</button></a
+        >
+        <a href="#" class="navLinksTop"
+          ><button class="navButtonsTop" id="blogsHyperlink">Blogs</button></a
+        >
+        <a href="#" class="navLinksTop"
+          ><button class="navButtonsTop" id="othersHyperlink">Others</button></a
+        >
+        <button class="navButtonsTop" id="darkModeSelector" style="display: inline;" onclick="darkMode()">Dark Mode</button></a
+        >
+        <button class="navButtonsTop" id="lightModeSelector" style="display: none;">Light Mode</button></a
+        >
+      </nav>
+    <!--/Nav Bar-->
+
+    <!--Quote-->
+      <div id="websiteQuoteContainer">
+        <h1 id="quoteText">>Hi, I'm Godsent!_</h1>
+      </div>
+    <!--/Quote-->
+
+    <!--ProfilePicture-->
+      <div id="profilePictureContainer">
+        <img
+          src="./resources/profilePicture.png"
+          alt="profilePicture"
+          id="profilePicture"
+        />
+      </div>
+    <!--/ProfilePicture-->
+
+    <!--WebsiteName-->
+      <div id="NameContainer">
+        <h2 id="websiteOwner">Godsent Salvaloza</h2>
+        <p id="nameCredential">Hacker | Programmer | Learner</p>
+      </div>
+    <!--/WebsiteName-->
+
+    <!--Content-->
+    <article class="pageContent">
+      <h3 class="contentHeading" id="headingFirst">About</h3>
+        <p class="contentMain" id="contentOne">Hello, I’m Godsent! An aspiring programmer with a basic knowledge about digital security and privacy. This website is all about sharing my learnings and making new systems as I learn new things. As of now, I’m learning web development, hence for the constant changes for this website. Thank you for paying a visit to my website!</p>
+    </article>
+    <article class="pageContent">
+      <h3 class="contentHeading" id="headingSecond">Contact</h3>
+        <p class="contentMain" id="contentTwo">If you have any concern or suggestions, please feel free to reach me out:</p>
+        <p class="contactInfo" id="contentThree">godsentsalvaloza - <a href="http://www.github.com/godsentsalvaloza" class="contactLink">Github</a></p>
+        <p class="contactInfo" id="contentFour">godsentsalvalozaX@protonmail.com - <a href="mailto:godsentsalvalozaX@protonmail.com" class="contactLink">Email</a></p>
+    </article>
+    <!--/Content-->
+
+
+    <footer id="footerPage">
+      <!--Nav bar-->
+        <nav id="bottomNavigationalBar">
+          <div id="bottomLinkContainer">
+            <a href="#" class="navLinks"
+              ><button class="navButtonsBottom" id="homeNavBottom">Home</button></a
+            >
+            <a href="#" class="navLinks"
+              ><button class="navButtonsBottom" id="aboutNavBottom">About</button></a
+            >
+            <a href="#" class="navLinks"
+              ><button class="navButtonsBottom" id="blogsNavBottom">Blogs</button></a
+            >
+            <a href="#" class="navLinks"
+              ><button class="navButtonsBottom"id="othersNavBottom">Others</button></a
+            >
+            <a href="#topNavigationalBar" class="navLinks"
+              ><button class="navButtonsBottom" id="backNavBottom">Back To Top</button></a
+            >
+          </div>
+
+          <p id="bottomNavName">Godsent Salvaloza</p>
+          <p id="bottomNavName">Version 0.01 Alpha</p>
         </nav>
-        <!--/Navigation bar-->
-        <!--Introduction-Name-->
-        <div id="quote-name">
-          <p id="quote-on-the-start">>Hello World_</p>
-        </div>
-        <!--/Introduction-Name-->
-        <!--Profile-picture-of-the-webpage-->
-        <div id="profile-picture-webpage">
-          <img
-            src="./images/Profilepicture.png"
-            alt="profile Profile-picture-of-the-webpage"
-            id="profile-picture-page"
-          />
-        </div>
-        <!--/Profile-picture-of-the-webpage-->
-        <!--Webpage-owner-name-->
-        <div id="profile-name">
-          <p id="profile-name-text">Godsent Salvaloza</p>
-        </div>
-        <!--/Webpage-owner-name-->
-        <!--First section-->
-        <div id="first-section-locator">
-          <div class="sections-for-informations">
-            <h3 class="header-of-info">About</h3>
-            <div class="margin-top-fixer">
-              <p class="long-description-about-that-topic">
-                Hello Friend my name is Godsent Salvaloza and welcome to my
-                webpage i'm currently learning web developing and this is my
-                first website this design of my page might change because i'm
-                currently improving the UI of this webpage to make it look
-                better. Again thanks for visiting my website.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!--/First section-->
-        <!--Second section-->
-        <div id="second-section-locator"></div>
-          <div class="sections-for-informations">
-            <h3 class="header-of-info">Contact</h3>
-            <div class="margin-top-fixer">
-              <p class="long-description-about-that-topic">
-                If you have concerns regarding to this webpage you can contact me
-                on my email adress
-              </p>
-              <p class="long-description-about-that-topic">
-                <i class="far fa-envelope"></i>
-                <strong>godsentsalvalozaX@protonmail.com</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-        <!--/Second section-->
-      </main>
-      <!--/Where all contents to put-->
-    </main>
-    <!--/For making footer stay at the bottom of the page-->
-    <!--Footer-->
-    <footer id="main-footer">
-      <!--Version info and copyright-->
-      <p id="footer-text">
-        Version 0.05.2&nbsp;&nbsp;&copy;Godsent Salvaloza 2021
-      </p>
+      <!--/Nav bar-->
     </footer>
-    <!--/Version info and copyright-->
-    <!--/Footer-->
+
+
+    <!--Javacript-->
+      <script src="./script.js"></script>
+    <!--Javacript-->
+    
   </body>
 </html>

@@ -1,105 +1,187 @@
-/*Version v0.05.2 light build 110721*/
-/*making the footer stay at the bottom of the webpage*/
-html,
-body {
-  height: 100%;
-}
-#main-container-for-all {
-  min-height: 100%;
-}
-#main-contents {
-  padding-bottom: 3vw;
-}
-#main-footer {
-  background-color: #333333;
-  position: relative;
-  height: 5vw;
-  margin-top: -3vw;
-  margin-left: -8px;
-  margin-right: -8px;
-}
-#footer-text {
-  color: #d9d9d9;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 2vw;
-}
-/*/making the footer stay at the bottom of the webpage*/
-/*Naviation Bar style*/
-#primary_navigation_bar {
-  background-color: #333;
-  margin-left: -8px;
-  margin-right: -8px;
-  margin-top: -8px;
-}
-#navigation_bar_name {
-  color: #f2f2f2;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 4vw;
-}
+/*Godsent's personal website made on 03/19/2023 version 0.01*/
+/*Last updated: 03/24/2023*/
 
-#naviation_links {
-  font-size: 2.2vw;
-  font-family: "Noto Sans", sans-serif;
-  display: inline;
-  text-align: right;
-  margin-left: 0vw;
+/*For making the footer stick to the bottom of the page*/
+  html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    margin-top: auto;
+    background-color: #333;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -50vw;
+    min-height: 10vw;
+    max-height: 20vw;
+  }
+/* </>For making the footer stick to the bottom of the page*/
+
+/*Top Navigational Bar*/
+  /*Nav Name*/
+      nav#topNavigationalBar {
+        background-color: #333;
+        margin: -8px;
+        max-height: 10vw;
+        min-height: 4vw;
+      }
+      span#topNavName {
+        color: #f2f2f2;
+        font-family: "Noto Sans", sans-serif  ;
+        font-size: 3vw;
+        padding-left: 0.5vw;
+        padding-right: 2vw;
+        max-height: 3vw;
+      }
+  /*</>Nav Name*/
+
+  /*Nav links*/
+    button.navButtonsTop {
+      font-size: 1.5vw;
+      margin-right: 1vw;
+      font-family: "Noto Sans", sans-serif;
+      border: none;
+      color: #d9d9d9;
+      background-color: #333333;
+      transition-duration: 0.4s;
+      max-width: 20vw;
+      max-height: 4vw;
+    }
+    button.navButtonsTop:hover {
+      color: #333333;
+      background-color: #d9d9d9;
+    }
+  /*</>Nav links*/
+/*Top Navigational Bar*/
+
+/*Quote*/
+div#websiteQuoteContainer {
+  margin-top: 3vw;
 }
-.navigation_options {
-  display: inline;
-  margin-left: 2vw;
-}
-a.naviations_hyperlinks:link {
-  color: #d9d9d9;
-}
-a.naviations_hyperlinks:visited {
-  color: #d9d9d9;
-}
-a.naviations_hyperlinks:hover {
-  color: #ff3300;
-}
-a.naviations_hyperlinks:active {
-  color: #d9d9d9;
-}
-a.naviations_hyperlinks {
-  text-decoration: none;
-}
-/*/Naviation Bar style*/
-/*Quote-below-the-header*/
-#quote-on-the-start {
+h1#quoteText {
   text-align: center;
   font-family: "Noto Sans", sans-serif;
   font-size: 3.5vw;
+  font-weight: normal;
 }
-/*/Quote-below-the-header*/
-/*Profile picture*/
-#profile-picture-page {
-  border-radius: 50%;
+/*</>Quote*/
+
+/*Profile Picture*/
+img#profilePicture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 20vw;
-  height: 20vw;
+  margin-top: -1vw;
+  border-radius: 50%;
 }
-#profile-picture-webpage {
+/*</>Profile Picture*/
+
+/*Name of the owner*/
+h2#websiteOwner{
   text-align: center;
-  margin-top: -2vw;
-}
-/*/Profile picture*/
-/*Profile Name*/
-#profile-name-text {
-  font-family: "Noto Sans", sans-serif;
-  text-align: center;
-  font-size: 2.5vw;
-  color: #1a1a1a;
-}
-/*/Profile Name*/
-/*For the articles*/
-.header-of-info {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 3.5vw;
-}
-.long-description-about-that-topic {
   font-family: "Noto Sans", sans-serif;
   font-size: 2.5vw;
+
 }
-.margin-top-fixer {
+div#NameContainer{
   margin-top: -1vw;
 }
-/*/For the articles*/
+p#nameCredential{
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1vw;
+  margin-top: -2vw;
+  font-weight: 500;
+}
+/*</>Name of the owner*/
+
+/*Content*/
+article.pageContent {
+  margin: 0.5vw;
+}
+h3.contentHeading {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 3vw;
+  margin-bottom: -1vw;
+}
+p.contentMain {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.8vw;
+}
+/*Contact*/
+  p.contactInfo {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.5vw;
+  }
+  a.contactLink{
+    text-decoration: none;
+  }
+  a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    transition-duration: 0.4s;
+  }
+    
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+    transition-duration: 0.4s;
+  }
+    
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    transition-duration: 0.4s;
+  }
+    
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+    transition-duration: 0.4s;
+    }
+  
+/*</>Contact*/
+
+/*</>Content/*
+
+/*Bottom Navigational Bar*/
+  button.navButtonsBottom {
+    font-size: 1.3vw;
+    margin-right: 1.3vw;
+    font-family: "Noto Sans", sans-serif;
+    border: none;
+    color: #d9d9d9;
+    background-color: #333333;
+    transition-duration: 0.4s;
+    max-width: 23vw;
+    max-height: 8vw;
+  }
+  button.navButtonsBottom:hover {
+    color: #333333; 
+    background-color: #d9d9d9;
+  }
+  div#bottomLinkContainer{
+    margin-left: 1vw;
+  }
+  nav#bottomNavigationalBar {
+    margin-top: 1vw;
+  }
+  /*Nav Name*/
+    p#bottomNavName {
+      font-family: "Noto Sans", sans-serif;
+      color: #f2f2f2;
+      font-size: 1.2vw;
+      padding-right: 4vw;
+      padding-left: 0.5vw;
+    }
+  /*</>Nav Name*/
+/*</>Bottom Navigational Bar*/

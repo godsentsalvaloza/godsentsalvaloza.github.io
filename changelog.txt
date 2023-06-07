@@ -1,5 +1,0 @@
-Version 0.05.2 Build 110721 Changelog
-
--performance improvement
--more under the hood tweaks
--Recommendations are now added to improve user's shopping experience

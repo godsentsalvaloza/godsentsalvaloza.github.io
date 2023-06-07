@@ -1,7 +1,0 @@
-Version 0.03.0 Changelog
-
--Navigational bar improved
--Fonts are more smaller to make the expirience better
--Dark mode are more darker
--comments are left on the code to guide the developer about the code
--More under the hood improvermnts
