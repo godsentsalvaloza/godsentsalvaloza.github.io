@@ -1,0 +1,227 @@
+/* Responsiveness*/
+
+/* /Responsiveness*/
+
+/* Global Variables */
+:root {
+  --main-primary-color: #004d00;
+  --main-text-color: #f2f2f2;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+/* Nav Bar */
+nav#top-nav-bar {
+  background-color: var(--main-primary-color);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+footer div img,
+nav#top-nav-bar header img {
+  width: 115px;
+  padding: 0 10px;
+}
+footer div span,
+nav#top-nav-bar header {
+  font-size: 3em;
+  padding-left: 10px;
+  color: var(--main-text-color);
+  align-items: center;
+  display: flex;
+}
+nav#top-nav-bar div#link-containers {
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* Main Links design */
+nav a {
+  margin-right: 20px;
+  font-size: 1.5em;
+  margin-right: 30px;
+  text-decoration: none;
+  color: var(--main-text-color);
+  transition-duration: 0.4s;
+}
+nav a:hover {
+  background-color: var(--main-text-color);
+  color: var(--main-primary-color);
+  transition-duration: 0.4s;
+  font-size: 1.8em;
+}
+nav a:active {
+  color: var(--main-text-color);
+  transition-duration: 0.4s;
+  text-decoration: none;
+  background-color: var(--main-primary-color);
+}
+/* /Nav Bar */
+
+main#main-content {
+  padding-top: 115px;
+}
+
+/* Welcome Section*/
+main section#welcome-section {
+  background-color: red;
+  width: 100%;
+  height: 35em;
+}
+main section#welcome-section h1 {
+  text-align: center;
+  font-size: 6em;
+  font-weight: 900;
+  color: var(--main-text-color);
+  margin: 0;
+  padding-top: 1.2em;
+}
+main section#welcome-section p {
+  color: var(--main-text-color);
+  font-size: 1.5em;
+  text-align: center;
+}
+main section#welcome-section button {
+  color: var(--main-text-color);
+  font-size: 1.5em;
+  text-align: center;
+  background-color: var(--main-primary-color);
+  border: none;
+  margin: auto;
+  display: block;
+  padding: 1.3em 3em;
+  transition-duration: 0.4s;
+}
+main section#welcome-section button:hover {
+  background-color: var(--main-text-color);
+  font-size: 1.5em;
+  text-align: center;
+  color: var(--main-primary-color);
+  border: none;
+  margin: auto;
+  display: block;
+  padding: 1em 2em;
+  transition-duration: 0.4s;
+}
+main section#welcome-section a {
+  text-decoration: none;
+}
+
+/* /Welcome Section*/
+
+/* Article Section*/
+main section.article-section {
+  background-color: blue;
+  width: 100%;
+  height: 35em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+main section.article-section:nth-of-type(3) {
+  background-color: black;
+  width: 100%;
+  height: 35em;
+}
+main section.article-section img {
+  width: 650px;
+  height: 450px;
+}
+main section.article-section .article-content-text {
+  color: var(--main-text-color);
+  padding-right: 10px;
+}
+main section.article-section .article-content-text:nth-of-type(2) {
+  color: var(--main-text-color);
+  padding-left: 20px;
+}
+
+main section.article-section .article-content-text h2 {
+  font-size: 3em;
+  margin: 0;
+}
+main section.article-section button {
+  color: var(--main-text-color);
+  font-size: 1.3em;
+  background-color: var(--main-primary-color);
+  border: none;
+  display: block;
+  padding: 1em 3em;
+  transition-duration: 0.4s;
+  margin-top: 30px;
+}
+main section.article-section button:hover {
+  background-color: var(--main-text-color);
+  font-size: 1.3em;
+  color: var(--main-primary-color);
+  border: none;
+  display: block;
+  padding: 0.8em 2.5em;
+  transition-duration: 0.4s;
+}
+main section.article-section a {
+  text-decoration: none;
+}
+
+/* /Article Section*/
+
+/* Sticky - Footer */
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+}
+footer {
+  margin-top: auto;
+  background-color: var(--main-primary-color);
+  height: 8em;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+footer a {
+  margin-right: 20px;
+  font-size: 1.4em;
+  margin-right: 30px;
+  text-decoration: none;
+  color: var(--main-text-color);
+  transition-duration: 0.4s;
+}
+footer a:hover {
+  background-color: var(--main-text-color);
+  color: var(--main-primary-color);
+  transition-duration: 0.4s;
+  font-size: 1.6em;
+}
+footer div#footer-logo {
+  align-items: center;
+  display: flex;
+}
+footer div span {
+  font-size: 1.1em;
+  padding-right: 10px;
+}
+footer a:active {
+  color: var(--main-text-color);
+  transition-duration: 0.4s;
+  text-decoration: none;
+  background-color: var(--main-primary-color);
+}
+/* / Sticky - Footer */
+
+/* NOTE: dito magdagdag ng styles. If may conflict sa styles burahin niyo with caution. */
