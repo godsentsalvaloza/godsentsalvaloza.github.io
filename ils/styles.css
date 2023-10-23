@@ -357,3 +357,126 @@ footer a:active {
   }
 }
 /* /Responsiveness*/
+
+/* ABOUT PAGE STYLE */
+section.article-about {
+  width: 100%;
+  height: 30em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 0 20px;
+}
+section.article-about:nth-of-type(1) {
+  background-color: #404040;
+}
+section.article-about:nth-of-type(2) {
+  background-color: #333;
+}
+section.article-about:nth-of-type(3) {
+  background-color: #262626;
+}
+section.article-about:nth-of-type(4) {
+  background-color: #1a1a1a;
+}
+section.article-about p,
+h2 {
+  color: var(--main-text-color);
+  text-align: justify;
+}
+section.article-about h2 {
+  font-size: 3em;
+}
+section.article-about p#history {
+  font-size: 1.15em;
+}
+section.article-about p {
+  font-size: 1.4em;
+}
+@media screen and (max-width: 1040px) {
+  section.article-about h2 {
+    font-size: 3em;
+  }
+  section.article-about p#history {
+    font-size: 1.1em;
+  }
+  section.article-about:nth-of-type(1) {
+    height: 35em;
+  }
+}
+@media screen and (max-width: 800px) {
+  section.article-about h2 {
+    font-size: 2.5em;
+  }
+  section.article-about p#history {
+    font-size: 1.1em;
+    margin-top: -10px;
+  }
+}
+@media screen and (max-width: 710px) {
+  section.article-about h2 {
+    font-size: 2.6em;
+  }
+  section.article-about p#history {
+    font-size: 1em;
+  }
+  section.article-about:nth-of-type(1) {
+    height: 45em;
+  }
+  section.article-about p {
+    font-size: 1.2em;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 490px) {
+  section.article-about:nth-of-type(1) {
+    height: 50em;
+  }
+  section.article-about p#history {
+    font-size: 1em;
+    margin-top: -25px;
+  }
+}
+/* /ABOUT PAGE STYLE */
+
+/* MORE PAGE STYLE */
+ul#members-list {
+  margin-top: -25px;
+}
+ul#members-list li {
+  color: var(--main-text-color);
+  font-size: 1.2em;
+}
+/* /MORE PAGE STYLE */
+
+/* CONTACT PAGE STYLE */
+a.contact-links {
+  color: var(--main-text-color);
+  transition-duration: 0.4s;
+}
+a.contact-links:hover {
+  background-color: var(--main-text-color);
+  color: var(--main-primary-color);
+  transition-duration: 0.4s;
+  font-size: 1.1em;
+}
+a.contact-links:active {
+  color: var(--main-text-color);
+  transition-duration: 0.4s;
+  text-decoration: none;
+  background-color: var(--main-primary-color);
+}
+section#section-map {
+  display: block;
+}
+iframe {
+  width: 40em;
+  height: 20em;
+}
+@media screen and (max-width: 710px) {
+  iframe {
+    width: 100%;
+    height: 75%;
+  }
+}
