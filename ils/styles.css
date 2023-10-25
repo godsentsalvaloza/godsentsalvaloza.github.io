@@ -40,7 +40,7 @@ nav#top-nav-bar div.link-containers {
 }
 
 /* Main Links design */
-nav a {
+nav div.link-containers a {
   margin-right: 20px;
   font-size: 1.5em;
   margin-right: 30px;
@@ -48,17 +48,23 @@ nav a {
   color: var(--main-text-color);
   transition-duration: 0.4s;
 }
-nav a:hover {
+nav div.link-containers a:hover {
   background-color: var(--main-text-color);
   color: var(--main-primary-color);
   transition-duration: 0.4s;
   font-size: 1.8em;
 }
-nav a:active {
+nav div.link-containers a:active {
   color: var(--main-text-color);
   transition-duration: 0.4s;
   text-decoration: none;
   background-color: var(--main-primary-color);
+}
+a#header-logo-refer-link {
+  text-decoration: none;
+  color: var(--main-text-color);
+  display: flex;
+  align-items: center;
 }
 
 /* /Nav Bar */
@@ -286,7 +292,7 @@ footer a:active {
   }
   footer div a {
     padding-bottom: 20px;
-    font-size: 1.7em;
+    font-size: 1.4em;
   }
   footer {
     height: 25em;
@@ -494,13 +500,40 @@ section#product-flex-manager {
 }
 main div.product-container {
   width: 20em;
-  height: 25em;
-  background-color: #f2f2f2;
+  height: 34em;
+  background-color: var(--main-primary-color);
   transition-duration: 0.4s;
 }
 main div.product-container:hover {
   width: 21em;
-  height: 26em;
-  background-color: #000;
+  height: 35em;
+  background-color: #006600;
   transition-duration: 0.4s;
+}
+img.products-image-source {
+  width: 100%;
+  height: 18em;
+}
+main section div.text-product-container {
+  padding: 0 10px;
+  margin: 0;
+  color: var(--main-text-color);
+}
+main section div.text-product-container h2 {
+  font-weight: 500;
+  font-size: 1.7em;
+  margin: 5px 0;
+}
+main section div.text-product-container p {
+  font-size: 1.5em;
+  margin: 0;
+}
+main section div.text-product-container p.product-description {
+  font-size: 1em;
+  margin: 0;
+  padding: 10px 0;
+}
+main section div.text-product-container p.product-review {
+  font-size: 1.3em;
+  margin: 0;
 }
