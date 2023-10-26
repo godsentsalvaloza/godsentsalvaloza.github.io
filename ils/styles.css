@@ -500,13 +500,13 @@ section#product-flex-manager {
 }
 main div.product-container {
   width: 20em;
-  height: 34em;
+  height: 36em;
   background-color: var(--main-primary-color);
   transition-duration: 0.4s;
 }
 main div.product-container:hover {
   width: 21em;
-  height: 35em;
+  height: 37em;
   background-color: #006600;
   transition-duration: 0.4s;
 }
@@ -523,17 +523,21 @@ main section div.text-product-container h2 {
   font-weight: 500;
   font-size: 1.7em;
   margin: 5px 0;
+  text-align: left;
 }
 main section div.text-product-container p {
   font-size: 1.5em;
   margin: 0;
 }
 main section div.text-product-container p.product-description {
-  font-size: 1em;
+  font-size: 0.9em;
   margin: 0;
   padding: 10px 0;
 }
 main section div.text-product-container p.product-review {
   font-size: 1.3em;
   margin: 0;
+}
+a.products-redirect-link-confirm {
+  text-decoration: none;
 }
