@@ -1,0 +1,98 @@
+/* Declearning variables */
+:root {
+  --font: "Noto Sans", sans-serif;
+  --primaryColor: #fe9d01;
+  --secondaryColor: #fea71b;
+  --tertiaryColor: #006600;
+}
+
+html {
+  background-color: var(--primaryColor);
+  margin: 30px;
+  font-family: var(--font);
+}
+main {
+  background-color: var(--secondaryColor);
+  margin: auto;
+  display: block;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 700px;
+  max-height: 625px;
+}
+/* For styling form section */
+h1 {
+  font-family: var(--font);
+  font-size: 40px;
+}
+hr {
+  height: 1px;
+  background-color: black;
+}
+form select {
+  border-radius: 5px;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 10px;
+  border: none;
+}
+label {
+  font-size: 18px;
+}
+
+/* For styling data output section */
+button {
+  display: block;
+  margin: 20px 0;
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--tertiaryColor);
+  color: white;
+  transition-duration: 0.2s;
+  font-size: 18px;
+}
+button:hover {
+  background-color: white;
+  color: var(--tertiaryColor);
+  transition-duration: 0.2s;
+  font-size: 18px;
+}
+img {
+  width: 225px;
+  height: 150px;
+}
+section#fareDisplaySection {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  padding-left: 10px;
+  font-size: 22px;
+}
+div {
+  margin-top: -17px;
+}
+span {
+  color: var(--tertiaryColor);
+}
+
+/* For responsive design */
+
+@media (max-width: 750px) {
+  section#fareDisplaySection {
+    flex-direction: column;
+    align-items: center;
+  }
+  main {
+    max-height: 950px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 20px;
+  }
+}

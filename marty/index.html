@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-PH">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MRT 3 Fare Calculator</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/beepCardt.webp"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- Section for form-->
+      <section>
+        <h1>Fare Calculator MRT3 (Yellow Line)</h1>
+        <hr />
+        <form>
+          <label for="startOption">Departure: </label>
+          <select name="" id="startOption" onchange="setStartStation()">
+            <option selected disabled>-- Choose a station --</option>
+            <option value="0">North Avenue</option>
+            <option value="1">Quezon Avenue</option>
+            <option value="2">GMA Kamuning</option>
+            <option value="3">Araneta - Cubao</option>
+            <option value="4">Santolan - Annapolis</option>
+            <option value="5">Ortigas</option>
+            <option value="6">Shaw Boulevard</option>
+            <option value="7">Boni</option>
+            <option value="8">Guadalupe</option>
+            <option value="9">Buendia</option>
+            <option value="10">Ayala</option>
+            <option value="11">Magallanes</option>
+            <option value="12">Taft Avenue</option>
+          </select>
+
+          <br />
+          <br />
+          <label for="endOption">Arrival: </label>
+          <select name="" id="endOption" onchange="setEndStation()">
+            <option selected disabled>-- Choose a station --</option>
+            <option value="0">North Avenue</option>
+            <option value="1">Quezon Avenue</option>
+            <option value="2">GMA Kamuning</option>
+            <option value="3">Araneta - Cubao</option>
+            <option value="4">Santolan - Annapolis</option>
+            <option value="5">Ortigas</option>
+            <option value="6">Shaw Boulevard</option>
+            <option value="7">Boni</option>
+            <option value="8">Guadalupe</option>
+            <option value="9">Buendia</option>
+            <option value="10">Ayala</option>
+            <option value="11">Magallanes</option>
+            <option value="12">Taft Avenue</option>
+          </select>
+
+          <button type="button" onclick="calculate(startStation, endStation)">
+            Calculate
+          </button>
+        </form>
+        <hr />
+      </section>
+
+      <!-- Section for data results-->
+      <section id="fareDisplaySection">
+        <a href="https://beep.com.ph/beep-card/" target="_blank">
+          <img src="./assets/beepCardt.webp" alt="Beep Card"
+        /></a>
+        <div>
+          <p>The fare is: <span id="text">₱0</span></p>
+          <p>The discounted fare is: <span id="textDiscount">₱0</span></p>
+          <p>Estimated travel time: <span id="travelTime">0 minute</span></p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
